@@ -1,0 +1,11 @@
+Chapter 6: Concurrency Control on Objects: Notions of Correctness
+
+3 - CSR for Flat Object Transactions
+	Commutativity-based Reducability
+
+5 - Tree Reducibility
+
+8 - Sufficient Conditions for Tree Reducibility
+
+ - Exploiting State-Based Commutativity
+
