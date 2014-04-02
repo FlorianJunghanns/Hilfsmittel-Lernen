@@ -1,0 +1,21 @@
+Chapter 1 (24)
+  OLTP => OnLine Transaction Processing
+  3-Tier System Architecture
+    => Clients, Application Server, Data Server
+  2-Tier Client-Server Architecture
+    => Fat Clients (app on client + ODBC)
+    => Thin Clients (app on server, e.g. stored procedure)
+  ACID: Atomicity, Consistency Preservation, Isolation, Durability
+  Transaction programming interface ("ACID contract")
+    => begin transaction; commit transaction; rollback transaction
+
+Chapter 2 (15)
+  (1) Page Model
+  (1) Object model (Definition: Object Model Transaction)
+
+Chapter 3 (54) "Concurrency Control Algorithms"
+  [31] Locking Schedulers
+    (3) Two-Phase-Locking (2PL)
+    (4) Deadlock Handling
+    (2) Variants
+    (5) Ordered Sharing of Locks
