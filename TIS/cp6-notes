@@ -7,5 +7,6 @@ Chapter 6: Concurrency Control on Objects: Notions of Correctness
 
 8 - Sufficient Conditions for Tree Reducibility
 
- - Exploiting State-Based Commutativity
+4 - Exploiting State-Based Commutativity
+
 
