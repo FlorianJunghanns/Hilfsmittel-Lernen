@@ -13,6 +13,23 @@ Chapter 2 (15)
   (1) Page Model
   (1) Object model (Definition: Object Model Transaction)
 
+Chapter 3 (39) "Concurrency Control - Notions of Correctness for the Page Model"
+  (3) introduction of...
+  	Lost Update Problem
+	  Inconsistent Read Problem
+  	Dirty Read Problem
+  (5) Schedules and Histories, definition
+  	Correctness of Schedules
+  	Equivalence Relation
+  (2) Herbrand Semantics of Schedules
+  (4) Final State Serializability
+  (7) View Serializability
+  (10) Conflict Serializability
+  (3) Commit Serializability
+  (5) Interleaving Specifications
+	  Indivisible Units
+	  Relatively Serializable Schedules
+
 Chapter 4 (54) "Concurrency Control Algorithms"
   [31] Locking Schedulers
     (3) Two-Phase-Locking (2PL)
@@ -21,6 +38,25 @@ Chapter 4 (54) "Concurrency Control Algorithms"
     (5) Ordered Sharing of Locks
     (4) Altruistic Locking
     (5) Geometry of Locking
+
+Chapter 5 (17) "Part II: Multiversion Concurrency Control"
+  (1) Motivation
+  (1) Multiversion Schedules
+  (6) Multiversion View Serializability
+	  Multiversion Conflict Serializability
+  (9) Multiversion Concurrency Control Protocols
+  	MVTO Protocol
+  	MV2PL Protocol
+  	2V2PL Protocol
+    MVSGT
+  	ROMV Protocol
+
+Chapter 6 () "Concurrency Control on Objects: Notions of Correctness"
+  (3) CSR for Flat Object Transactions
+  	Commutativity-based Reducability
+  (5) Tree Reducibility
+  (8) Sufficient Conditions for Tree Reducibility
+  (4) Exploiting State-Based Commutativity
 
 Chapter 7 (25) "Concurrency Control Algorithms on Objects"
   (1) Locking for Flat Object Transactions
@@ -47,3 +83,20 @@ Chapter 12 (17) "Crash Recovery: Notion of Correctness"
   (2) System Model
   (2) Correctness Criterion
   (1) Roadmap of Algorithms
+
+Chapter 13 (78) "Page-Model Crash Recovery Algorithms"
+  (4) Basic Data Structures
+  [52] Redo-Winners Paradigm
+    (4)  Actions During Normal Operation
+	  (16) Simple Three-Pass Algorithm
+	  (21) Enhanced Algorithm
+	 	  Log Trunkation
+     	Checkpoints
+		  Redo Optimization
+	  (11) Complete Algorithm
+  	 	Handling Transaction Aborts
+	  	Undo Completion
+  [22] Redo-History Paradigm
+ 	  (1)  Actions During Normal Operation
+	  (9)  Simple Three-Pass and Two-Pass Algorithms
+	  (12) Complete Algorithms
