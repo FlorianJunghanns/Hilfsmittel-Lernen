@@ -13,9 +13,37 @@ Chapter 2 (15)
   (1) Page Model
   (1) Object model (Definition: Object Model Transaction)
 
-Chapter 3 (54) "Concurrency Control Algorithms"
+Chapter 4 (54) "Concurrency Control Algorithms"
   [31] Locking Schedulers
     (3) Two-Phase-Locking (2PL)
     (4) Deadlock Handling
     (2) Variants
     (5) Ordered Sharing of Locks
+    (4) Altruistic Locking
+    (5) Geometry of Locking
+
+Chapter 7 (25) "Concurrency Control Algorithms on Objects"
+  (1) Locking for Flat Object Transactions
+  (6) Layered Locking
+  (3) Locking on General Transation Forests
+  (1) Hybrid Algorithms
+  (5) Locking for Return-value Commutativity
+
+Chapter 8 (28) "Concurrency Control on Relational Databases"
+  (4) Predicate-Oriented Concurrency Control
+  (12) Relational Update Transactions
+  (5) Exploiting Transaction-Program Knowledge
+
+Chapter 11 (43) "Transaction Recovery"
+  (3) Expanded Schedules
+  (6) Page-Model Correctness Criteria
+  (11) Sufficient Syntactic Conditions
+  (2) Extending Page-Model CC Algorithms
+  (5) Object-Model Correctness Criteria
+  (4) Extending Object-Model CC Algorithms
+
+Chapter 12 (17) "Crash Recovery: Notion of Correctness"
+  (4) System Architecture and Interfaces
+  (2) System Model
+  (2) Correctness Criterion
+  (1) Roadmap of Algorithms
