@@ -1,0 +1,27 @@
+Chapter 3: Concurrency Control - Notions of Correctness for the Page Model
+
+
+3 - introduction of...
+	Lost Update Problem
+	Inconsistent Read Problem
+	Dirty Read Problem
+
+5 - Schedules and Histories, definition
+	Correctness of Schedules
+	Equivalence Relation
+
+2 - Herbrand Semantics of Schedules
+
+4 - Final State Serializability
+
+7 - View Serializability
+
+10 - Conflict Serializability
+
+3 - Commit Serializability
+
+5 - Interleaving Specifications
+	Indivisible Units
+	Relatively Serializable Schedules
+
+39 slides
