@@ -1,0 +1,84 @@
+FSR	Final State Serializability
+RF	reads-from relation
+LRF	live-reads-from relation
+VSR	View Serializability
+CSR	Conflict Serializability
+CSR ⊂ VSR ⊂ FSR
+G(s)	Conflict Graph
+OCSR	Order Preserving CSR
+COCSR	Commit-Order Preserving CSR
+CM*SR	Commit-*-Serializability
+COCSR ⊂ OCSR ⊂ CSR
+CSR is Prefix-commit-closed (Monotone)
+--> Diagram on 3-42
+
+RSG	Relative Serialization Graph
+--> Scheduler Classification on 4-6
+CC	Concurrency Control
+2PL	Phase Locking
+LRx	Locking Rule #x
+Gen(2PL) ⊂ OCSR
+WFG	Waits-for Graph
+C2PL	Conservative 2PL	preclaiming, Lock first: ask questions later
+S2PL	Strict 2PL	hold wl until c
+SS2PL	Strong 2PL	hold *l until c
+Gen(SS2PL) ⊂ COCSR
+O2PL	Ordered Lock-Sharing 2PL
+OSx	Ordered Lock-Sharing Rule #x
+LTx	Locking Table #x
+Gen(O2PL) = OCSR
+AL	Altruistic Locking
+ALx	Altruistic Locking Rule #x
+WTL	Write-only Tree Locking
+RWTL	Read-Write Tree Locking
+TO	Timestamp Ordering
+BTO	Basic TO Protocol
+SGT	Serialisation Graph Testing
+Gen(SGT) = CSR
+BOCC	Backward-oriented Optimistic Concurrency Control
+FOCC	Forward-oriented Optimistic Concurrency Control
+RS(t)	Read Set
+WS(t)	Write Set
+Gen(FOCC) ⊂ COCSR
+ts(t)	Timestamp
+
+M*	Multiversion {VSR, VSG, CSR}
+MVTO	Multiversion TO
+k*xx	siehe M*
+MV2PL	Multiversion 2PL
+2V2PL	2 Version 2PL
+MVSGT	MV SGT
+ROMV	Read-only MV Protocol
+
+L-to-L	Level to level Schedule
+h(x)	last lock on x
+deine mudda riecht nach katzenfutter
+IDM	Insert/Delete/Modify
+EG(s)	Extended Conflict Graph
+ECSR	Extended CSR
+C(T)	Chopping Graph
+T	Transaction Set
+
+RC	Recoverabilty	11-22
+ACA	Avoidance of Cascading Abort
+ST	Strictness
+RG	Rigorousness	11-22
+RG ⊂ ST ⊂ ACA ⊂ RC
+
+exp(s)	Expansion of Schedule s
+XCSR	Expanded Conflict Serializability
+RED	Reducibility
+	CR	Commutativity Rule
+	UR	Undo Rule
+	NR	Null Rule
+	OR	Ordering Rule
+PRED	Prefix-Reducability
+	PRED = CSR ∪ LRC
+LRC	Log-Recoverability
+--> Diagram on 11-27
+
+ESGT	Extended SGT
+Gen(ESGT) ⊆ CSR ∩ LRC
+
+
+
